@@ -6,6 +6,7 @@ def making():
 def red():
     red_df.head()
     red_df.insert(0,column='type',value='red')
+    white_df.insert(0,column='type',value='white')
     red_df.head()
     red_df.shape
 def white():
